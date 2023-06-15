@@ -5,8 +5,8 @@ metadata:
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/application=service-team-a
   tags:
-    - EKS
-    - AWS
+    - eks
+    - aws
 spec:
   type: service
   owner: user:guest
