@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-team-a
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/application=service-team-a
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
